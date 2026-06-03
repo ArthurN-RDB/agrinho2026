@@ -50,7 +50,7 @@ nav a:hover{
 
 .hero{
   height:100vh;
-  background:url('https://images.unsplash.com/photo-1500937386664-56d1dfef3854?q=80&w=1600&auto=format&fit=crop') center/cover;
+  background:url('image-7.webp') center/cover;
   position:relative;
   display:flex;
   justify-content:center;
