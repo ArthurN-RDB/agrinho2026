@@ -85,3 +85,85 @@
       </div>
       <div class="card">
         <h3>☁️ Computação em Nuvem</h3>
+        <p>
+          Infraestrutura essencial para armazenar, processar e aplicar Inteligência Artificial no grande volume de dados gerados nas lavouras.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="beneficios" class="section">
+    <h2>✅ Benefícios da Agricultura 4.0</h2>
+    <p>
+      A aplicação de algoritmos preditivos e Big Data gera benefícios diretos para o equilíbrio entre produção e meio ambiente, base do tema <strong>"Agro Forte, Futuro Sustentável"</strong>:
+    </p>
+    <ul style="font-size: 1.1rem; line-height: 1.8; margin-left: 20px;">
+      <li><strong>Manejo em Taxa Variável:</strong> Aplicação de sementes e fertilizantes na medida exata para cada metro quadrado, evitando desperdício de químicos.</li>
+      <li><strong>Otimização de Recursos Naturais:</strong> Sistemas inteligentes de irrigação que economizam milhões de litros de água baseados na evapotranspiração.</li>
+      <li><strong>Prevenção de Perdas:</strong> Modelos preditivos de clima que indicam a melhor janela de plantio e colheita.</li>
+    </ul>
+  </section>
+
+  <section id="impactos" class="section fundo-claro">
+    <h2>🌍 Desafios e Tendências Futuras</h2>
+    <div class="impactos-container">
+      <div class="impacto-box">
+        <h3>📡</h3>
+        <h4 style="margin: 15px 0;">Conectividade</h4>
+        <p>A expansão do 4G/5G no campo é crucial. Sem internet, os dados gerados pelas máquinas não chegam à nuvem.</p>
+      </div>
+      <div class="impacto-box">
+        <h3>🧑‍💻</h3>
+        <h4 style="margin: 15px 0;">Capacitação Profissional</h4>
+        <p>Forte demanda por jovens que compreendam tanto de ciências agrárias quanto de programação e ciência de dados.</p>
+      </div>
+      <div class="impacto-box">
+        <h3>🤖</h3>
+        <h4 style="margin: 15px 0;">Agricultura 5.0</h4>
+        <p>A tendência de robôs rurais e frotas autônomas tomando decisões em tempo real com Edge Computing.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="simulador" class="section fundo-verde">
+    <h2>⚙️ Simulador de Decisão Data-Driven</h2>
+    <p style="text-align: center; margin-bottom: 30px;">
+      Use o painel abaixo para entender como diferentes dados se transformam em ações sustentáveis no campo.
+    </p>
+    
+    <div class="simulador">
+      <label for="cultura">Selecione a Cultura:</label>
+      <select id="cultura">
+        <option value="Soja">Soja</option>
+        <option value="Milho">Milho</option>
+        <option value="Trigo">Trigo</option>
+      </select>
+
+      <label for="fonteDados">Fonte de Captação (Hardware):</label>
+      <select id="fonteDados">
+        <option value="Estação Meteorológica">Estação Meteorológica</option>
+        <option value="Imagens de Satélite (NDVI)">Imagens de Satélite (NDVI)</option>
+        <option value="Sensores de Solo (IoT)">Sensores de Solo (IoT)</option>
+      </select>
+
+      <label for="objetivo">Objetivo do Software:</label>
+      <select id="objetivo">
+        <option value="Otimizar Irrigação">Otimizar Irrigação</option>
+        <option value="Identificar Pragas/Doenças">Identificar Pragas/Doenças</option>
+        <option value="Aplicação de Fertilizante">Aplicação de Fertilizante</option>
+      </select>
+
+      <button onclick="analisarDados()">Processar Dados</button>
+
+      <div id="resultado"></div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Projeto para o Concurso de Programação - Núcleo Regional de Educação de Curitiba | Tema: Agro Forte, Futuro Sustentável</p>
+    <p style="margin-top: 10px; font-size: 0.9em;">Desenvolvido com HTML, CSS e JavaScript.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
